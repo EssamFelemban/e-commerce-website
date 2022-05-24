@@ -1,0 +1,146 @@
+/* logo - menu bar - body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(255, 255, 78);
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  p {
+    color: rgb(255, 71, 71);
+
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+/* text */
+.text1{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.text2{
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+}
+.line{
+   text-align: center;
+   color: aqua;
+}
+
+/* Ps4 and Xbox Products */
+.row {
+margin-top: 50px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.small-container{
+max-width: 1080px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.col-4 {
+flex-basis: 25%;
+padding: 10px;
+min-width: 200px;
+margin-bottom: 50px;
+transition: transform 0.5s;
+}
+  
+.col-4 img {
+width: 100%;
+}
+
+/* xbox Line */
+
+.text3{
+    text-align: center;
+    padding-top: 10px;
+    color: green;    
+}
+.line2{
+    text-align: center;
+    color: yellowgreen;
+}
+
+/*Ps4 button*/
+.btn1{
+   background-color: black;
+   height: 30px;
+   width: 100px;
+   position: absolute;
+   align-items: center;
+}
+.text-btn{
+    color: aqua;
+}  
+/*Ps4 button*/
+.btn2{
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    align-items: center;
+}
+.text-btn2{
+    color: yellowgreen;
+} 
+/* img about us */
+.img1{
+  width: 512px; 
+  height: 300px;
+  margin: 10px 20px 30px 200px;
+  background-color: lightblue;
+  float:left
+}
+/* text about us*/
+.text5{
+ margin-top: 12px;
+
+}
+.text6{
+  color: red;
+  margin-top: 12px;
+  font-family:cursive;
+
+}
